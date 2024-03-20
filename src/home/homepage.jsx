@@ -17,7 +17,7 @@ export default function Home() {
       <Banner />
       <Feature/>
       <section className="grid grid-cols-2 grid-rows-1 gap-0">
-        <div className="bg-amber-600">
+        <div className="bg-amber-800">
         <h4>Looking for the Latest</h4>
                 <h3>Trending Collections</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam incidunt quisquam possimus modi voluptatum hic nobis, earum fugit nihil? Sapiente exercitationem in odit velit necessitatibus! Omnis quam est tempore voluptatum.</p>

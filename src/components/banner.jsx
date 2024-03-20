@@ -5,7 +5,7 @@ import banner3 from "../assets/bthree.png";
  
 export default function Banner() {
   return (
-    <Carousel className="rounded-xl ">
+    <Carousel className="">
       <div className="relative h-full w-full">
         <img
           src={bone}
@@ -19,8 +19,8 @@ export default function Banner() {
               color="white"
               className="mb-4 text-3xl md:text-4xl lg:text-5xl"
             >
-              <h3>JEWELLERY FOR THE FEMININE YOU</h3>
-            <p>Take a moment and cherish a grand collection</p>
+              <p className="text-orange-500 font-light text-sm">JEWELLERY FOR THE FEMININE YOU</p>
+            <p className="text-sm">Take a moment and cherish a grand collection</p>
             </Typography>
             <div className="flex gap-2">
               <Button size="lg" color="white" variant="text">
