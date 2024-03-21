@@ -1,48 +1,88 @@
-import golden from "../assets/earring.jpg"
-import ring from "../assets/golden.jpg"
-export default function Feature(){
+import fpic from "../assets/multistone-removebg-preview (1).png";
+import spic from "../assets/newa-removebg-preview.png";
+import item2 from "../assets/item2-removebg-preview.png";
+import frpic from "../assets/earring-removebg-preview.png";
 
+export default function  Feature(){
     return(
-       <section>
-        <div className="justify-between">
-        <h3>Featured Products</h3>
-            <p>Eget Est Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <section>
+            <div class="text-center p-10">
+          <h1 className="font-bold text-4xl mb-4">FEATURED PRODUCTS </h1>
+           <h1 className="text-3xl">Tailwind CSS</h1>
         </div>
-        <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <img class="p-8 rounded-t-lg" src={golden} alt="product image" />
-    </a>
-    <div class="px-5 pb-5">
-        <a href="#">
-            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Green pearl Earring</h5>
-        </a>
-        <div class="flex items-center mt-2.5 mb-5">
-            <div class="flex items-center space-x-1 rtl:space-x-reverse">
-                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                </svg>
-                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                </svg>
-                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                </svg>
-                <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                </svg>
-                <svg class="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                </svg>
+
+
+        <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+           <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+            <img src={fpic} alt="earring" className="h-80 w-72 object-cover rounded-t-xl" />
+            <div className="px-4 py-3 w-72">
+                <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+                <p className="text-lg font-bold text-black truncate block capitalize">Product Name</p>
+                <div className="flex items-center">
+                    <p className="text-lg font-semibold text-black cursor-auto my-3">$599</p>
+                    <del>
+                        <p className="text-sm text-gray-600 cursor-auto ml-2">799</p>
+                    </del>
+                    <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            fill="currentColor" className="bi bi-bag-plus" viewBox="0 0 16 16">   
+                        </svg></div>
+                </div>
             </div>
-            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+           </div>
+           <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+            <img src={spic} alt="earring" className="h-80 w-72 object-cover rounded-t-xl" />
+            <div className="px-4 py-3 w-72">
+                <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+                <p className="text-lg font-bold text-black truncate block capitalize">Product Name</p>
+                <div className="flex items-center">
+                    <p className="text-lg font-semibold text-black cursor-auto my-3">$599</p>
+                    <del>
+                        <p className="text-sm text-gray-600 cursor-auto ml-2">799</p>
+                    </del>
+                    <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            fill="currentColor" className="bi bi-bag-plus" viewBox="0 0 16 16">   
+                        </svg></div>
+                </div>
+            </div>
+           </div>
+           <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+            <img src={item2} alt="earring" className="h-80 w-72 object-cover rounded-t-xl" />
+            <div className="px-4 py-3 w-72">
+                <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+                <p className="text-lg font-bold text-black truncate block capitalize">Product Name</p>
+                <div className="flex items-center">
+                    <p className="text-lg font-semibold text-black cursor-auto my-3">$599</p>
+                    <del>
+                        <p className="text-sm text-gray-600 cursor-auto ml-2">799</p>
+                    </del>
+                    <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            fill="currentColor" className="bi bi-bag-plus" viewBox="0 0 16 16">   
+                        </svg></div>
+                </div>
+            </div>
+           </div>
+           <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+            <img src={frpic} alt="earring" className="h-80 w-72 object-cover rounded-t-xl" />
+            <div className="px-4 py-3 w-72">
+                <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+                <p className="text-lg font-bold text-black truncate block capitalize">Product Name</p>
+                <div className="flex items-center">
+                    <p className="text-lg font-semibold text-black cursor-auto my-3">$599</p>
+                    <del>
+                        <p className="text-sm text-gray-600 cursor-auto ml-2">799</p>
+                    </del>
+                    <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            fill="currentColor" className="bi bi-bag-plus" viewBox="0 0 16 16">   
+                        </svg></div>
+                </div>
+            </div>
+           </div>
         </div>
-        <div class="flex items-center justify-between">
-            <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
-            <a href="#" class="text-white bg-black hover:bg-amber-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Add to cart</a>
-        </div>
+        </section>
         
-    </div>
-</div>
-       </section>
+    
+        
+    
+       
     );
 }

@@ -9,6 +9,8 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import sectionPic from "../assets/Screenshot2.png";
 import Feature from "../components/feature";
+import Blogs from "../components/blogs.jsx";
+import Insta from "../components/insta.jsx";
 
 export default function Home() {
   return (
@@ -16,7 +18,9 @@ export default function Home() {
       <Header />
       <Banner />
       <Feature/>
-      <section className="grid grid-cols-2 grid-rows-1 gap-0">
+      <Blogs/>
+      <Insta/>
+      <section className="grid grid-cols-2 grid-rows-1 gap-0 mt-5">
         <div className="bg-amber-800">
         <h4>Looking for the Latest</h4>
                 <h3>Trending Collections</h3>
@@ -28,8 +32,9 @@ export default function Home() {
         <div>
           <img src={sectionPic} alt="A model with earing " />
         </div>
+        <br />
       </section>
-      <div className="grid grid-cols-3 grid-rows-1 gap-11 mt-2 mb-2">
+      <div className="grid grid-cols-3 grid-rows-1 gap-11 mt-5 mb-6">
         <div>
           <FontAwesomeIcon icon={faTruck} size="2xl" />
           <h3>EXPRESS DELIVERY</h3>
