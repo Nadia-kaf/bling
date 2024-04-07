@@ -17,7 +17,7 @@ export default function Insta(){
             <img src={pic1} alt="earing " />
             <img src={pic5} alt="anklet" />
         </div>
-        <button className=" mt-10 mb-10 ml-96 border border-black">FOLLOW US @INSTAGRAM</button>
+        <button className=" mt-10 mb-10 ml-96 text-center border border-black">FOLLOW US @INSTAGRAM</button>
     </section>
     )
 }

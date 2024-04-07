@@ -30,7 +30,7 @@ export default function Home() {
 
         </div>
         <div>
-          <img src={sectionPic} alt="A model with earing " />
+          <img src={sectionPic} alt="A model with earing " className="w-full h-full object-contain" />
         </div>
         <br />
       </section>

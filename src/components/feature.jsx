@@ -6,7 +6,7 @@ import earring from "../assets/earring1.png"
 export default function  Feature(){
     return(
         <section>
-            <div class="text-center ">
+            <div class="text-center mt-5 ">
           <h1 className="font-bold text-4xl mb-4">FEATURED PRODUCTS </h1>
            <h1 className="text-3xl">Collections</h1>
         </div>
