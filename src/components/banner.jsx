@@ -1,15 +1,15 @@
 import { Carousel, Typography, Button } from "@material-tailwind/react";
-import bone from "../assets/b1.png"
+import bone from "../assets/b22.png"
 import banner2 from "../assets/b2.png";
 import banner3 from "../assets/b3.png";
  
 export default function Banner() {
   return (
     <Carousel className="">
-      <div className="relative h-full w-full">
+      <div className="relative h-screen w-full">
         <img
           src={bone}
-          alt="image 1"
+          alt="lady with jewelleries"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 grid h-full w-full place-items-center">
@@ -25,7 +25,7 @@ export default function Banner() {
             </div>
              <br />
             <div className="w-3/4 flex justify-end items-center ml-64 mb-96 text-center md:w-2/4">
-              <Button size="lg" color="white" variant="text" className="bg-black">
+              <Button size="lg" variant="text" color="white" className="text-white bg-amber-800" >
               MAKE ORDER
               </Button>
             </div>
@@ -35,7 +35,7 @@ export default function Banner() {
       <div className="relative h-full w-full">
         <img
           src={banner2}
-          alt="image 2"
+          alt="emerald earring on emerald cloth"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 grid h-full w-full items-center  bg-black/35">
@@ -59,7 +59,7 @@ export default function Banner() {
       <div className="relative h-full w-full">
         <img
           src={banner3}
-          alt="image 3"
+          alt="jewels with a solid dark background"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 grid h-full w-full items-end bg-black/10">
