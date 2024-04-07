@@ -21,12 +21,12 @@ export default function Home() {
       <Blogs/>
       <Insta/>
       <section className="grid grid-cols-2 grid-rows-1 gap-0 mt-5">
-        <div className="bg-amber-800">
+        <div className="bg-amber-800 pt-20">
         <h4>Looking for the Latest</h4>
                 <h3>Trending Collections</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam incidunt quisquam possimus modi voluptatum hic nobis, earum fugit nihil? Sapiente exercitationem in odit velit necessitatibus! Omnis quam est tempore voluptatum.</p>
 
-                <button className=" border boder-solid">SHOP NOW</button>
+                <button className=" border boder-solid mt-10">SHOP NOW</button>
 
         </div>
         <div>
@@ -34,8 +34,8 @@ export default function Home() {
         </div>
         <br />
       </section>
-      <div className="grid grid-cols-3 grid-rows-1 gap-11 mt-5 mb-6">
-        <div>
+      <div className="grid grid-cols-3 grid-rows-1 gap-11 mt-10 mb-10">
+        <div className="ml-10">
           <FontAwesomeIcon icon={faTruck} size="2xl" />
           <h3>EXPRESS DELIVERY</h3>
           <p>Worldwide free delivery</p>

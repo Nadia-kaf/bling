@@ -1,33 +1,37 @@
-import blogpic from "../assets/blogpic.png"
+import blogpic from "../assets/blogpic.png";
+import blogimg1 from "../assets/blogimg1.png";
+import blogimg2 from "../assets/blogimg2.png";
+import blogimg3 from "../assets/blogimg3.png";
+import blogimg4 from "../assets/blogimg4.png";
 
 const posts = [
     {
-        title: "What is SaaS? Software as a Service Explained",
-        desc: "Going into this journey, I had a standard therapy regimen, based on looking at the research literature. After I saw the movie, I started to ask other people.",
-        img: "https://images.unsplash.com/photo-1556155092-490a1ba16284?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        title: "A touch of Jewellry",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet ab animi libero, facere impedit deserunt quasi harum voluptatem iusto labore, quod expedita sapiente! Quos voluptas unde culpa nobis nemo!",
+        img: blogimg1,
         date: "Jan 4 2022",
-        href: "javascript:void(0)"
+        href: ""
     },
     {
-        title: "A Quick Guide to WordPress Hosting",
-        desc: "According to him, â€œI'm still surprised that this has happened. But we are surprised because we are so surprised.â€More revelations.",
-        img: "https://images.unsplash.com/photo-1620287341056-49a2f1ab2fdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        title: "A touch of Jewellry",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet ab animi libero, facere impedit deserunt quasi harum voluptatem iusto labore, quod expedita sapiente! Quos voluptas unde culpa nobis nemo!",
+        img: blogimg2,
         date: "Jan 4 2022",
-        href: "javascript:void(0)"
+        href: ""
     },
     {
-        title: "7 Promising VS Code Extensions Introduced in 2022",
-        desc: "I hope I remembered all the stuff that they needed to know. They're like, 'okay,' and write it in their little reading notebooks.",
-        img: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        title: "A touch of Jewellry",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet ab animi libero, facere impedit deserunt quasi harum voluptatem iusto labore, quod expedita sapiente! Quos voluptas unde culpa nobis nemo!",
+        img: blogimg3,
         date: "Jan 4 2022",
-        href: "javascript:void(0)"
+        href: ""
     },
     {
-        title: "How to Use Root C++ Interpreter Shell to Write C++ Programs",
-        desc: "The powerful gravity waves resulting from the impact of the planets' moons â€” four in total â€” were finally resolved in 2015 when gravitational.",
-        img: "https://images.unsplash.com/photo-1617529497471-9218633199c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        title: "A touch of Jewellry",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet ab animi libero, facere impedit deserunt quasi harum voluptatem iusto labore, quod expedita sapiente! Quos voluptas unde culpa nobis nemo!",
+        img: blogimg4,
         date: "Jan 4 2022",
-        href: "javascript:void(0)"
+        href: ""
     }
 ]
 
@@ -40,7 +44,7 @@ export default function Blogs(){
       </div>
         <div className="grid grid-cols-2 grid-rows-1 gap-0">
             <div>
-               <img src={blogpic} alt="model"  />
+               <img src={blogpic} alt="model" className="h-full w-11/12"  />
             </div>
 
             <div>
